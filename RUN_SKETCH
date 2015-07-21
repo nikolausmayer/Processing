@@ -1,0 +1,4 @@
+#!/bin/bash
+
+../processing-2.2.1/processing-java --run --output=./_out_scratch --force --sketch="$1"
+
