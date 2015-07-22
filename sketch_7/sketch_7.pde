@@ -51,7 +51,7 @@ int samplesPerFrame = 8;
 int numFrames = 240;
 float shutterAngle = .45;
 
-PShader toonShader;
+//PShader toonShader;
 
 /// If TRUE, will write frames to image files
 boolean recording = false;
@@ -63,8 +63,8 @@ void setup_() {
   //strokeWeight(0.05);
   fill(255,255,255);
   
-  toonShader = loadShader("ToonFrag.glsl", "ToonVert.glsl");
-  toonShader.set("fraction", 1.0);
+  //toonShader = loadShader("ToonFrag.glsl", "ToonVert.glsl");
+  //toonShader.set("fraction", 1.0);
   
   ortho();
 }
